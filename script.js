@@ -1,4 +1,4 @@
-//API URL: https://jacintodesign.github.io/quotes-api/data/quotes.json
+//API URL: https://jacintodesign.github.io/quotes-api/data/quotes.json - For Quotes
 let apiQuotes = [];
 
 //Get Quotes From API
@@ -7,7 +7,7 @@ async function getQuotes() {
     try {
       const response = await fetch(apiUrl); //Response variable populated upon receiving info from api
       apiQuotes = await response.json(); //Getting JSON from API as a response & turnning into a JSON object.
-      console.log(apiQuotes);
+      console.log(apiQuotes[13]);
     } catch (error) {
         //Catch Error Here
     }
