@@ -1,0 +1,20 @@
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "[Click Here For Live View](https://wwww.placeholder.jp)",
+  "main": "quotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clam119/quote-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clam119/quote-generator/issues"
+  },
+  "homepage": "https://github.com/clam119/quote-generator#readme"
+}
